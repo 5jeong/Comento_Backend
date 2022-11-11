@@ -22,5 +22,7 @@ mariaDB, MySql WorkBench를 설치하고 movie 테이블을 생성하여 데이�
 내가 mariadb에서 설정한 username과 password, 주소를 value값에 넣어주어야한다.    
 * context bound 에러 발생  
 해결 : <beans>안에 xmlns:context="http://www.springframework.org/schema/context"을 추가해주고 xsi:schemaLocation에  
-  http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd을 넣어주면 된다.
+  http://www.springframework.org/schema/context  
+  https://www.springframework.org/schema/context/spring-context.xsd을 넣어주면 된다.  
+
 
