@@ -12,7 +12,7 @@ Tomcat은 Java Servlet과 JSP가 실행할 수 있는 환경을 제공하여 동
 ## 5. [Hello World 출력]  
 1. 이클립스에서 스프링 프로젝트를 만들고 스프링 버전과 JDK 버전을 버전에 맞게 수정한다.  
 2. 서버를 셋팅하여 실행버튼을 눌러 localhost:8080/프로젝트명/으로 접속하면 Hello World가 정상적으로 실행된다.  
-<img src="C:\Users\82109\Desktop\정훈\코멘토\캡처.png" width="40%" height="30%" title="hello world" alt="movie"></img>  
+<img src="C:\Users\82109\Desktop\정훈\코멘토\캡처.PNG" width="40%" height="30%" title="hello world" alt="movie"></img>  
 ## 6. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]
   
 ## 7. [스프링, Mariadb, MyBatis 연동, 데이터 조회]
