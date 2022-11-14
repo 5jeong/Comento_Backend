@@ -19,7 +19,9 @@ mariaDB, MySql WorkBench를 설치하고 movie 테이블을 생성하여 데이�
 ## 6. [스프링, Mariadb, MyBatis 연동, 데이터 조회]  
 #### 1. pom.xml 수정  
 #### 2. root-context.xml 수정   
-* MaridDB에서 내가 설정한 username과 password, 주소를 value값에 넣어주어야 한다.     
+* MaridDB에서 내가 설정한 username과 password, 주소를 value값에 넣어주어야 한다.    
+![root](https://user-images.githubusercontent.com/104816594/201678685-f58c7393-819a-4e7c-aa12-23660e297871.PNG)  
+
 * context bound 에러 발생  
 해결 : <beans>안에 xmlns:context="http://www.springframework.org/schema/context" 을 추가해주고 xsi:schemaLocation코드에  
   http://www.springframework.org/schema/context  
