@@ -2,6 +2,7 @@
 스프링의 개발환경을 구축하는 1주차과제를 통해 추후에 진행될 스프링 부트와의 환경 차이를 느낄 수 있다.
 ## 1. [JDK 1.8 설치]  
 오라클 사이트에서 JDK 1.8을 다운받고 환경변수를 세팅하였다.  
+![jdk 버전](https://user-images.githubusercontent.com/104816594/201615991-2f66e318-cd5e-416f-81ce-c3e0a40dc906.PNG)
 ## 2. [Eclipse, Spring 다운로드 및 설치]  
 Eclipse와 Spring을 설치  
 ## 3. [톰캣 설정]  
@@ -22,7 +23,8 @@ mariaDB, MySql WorkBench를 설치하고 movie 테이블을 생성하여 데이�
 * context bound 에러 발생  
 해결 : <beans>안에 xmlns:context="http://www.springframework.org/schema/context" 을 추가해주고 xsi:schemaLocation코드에  
   http://www.springframework.org/schema/context  
-  https://www.springframework.org/schema/context/spring-context.xsd 을 추가해주면 된다.  
+  https://www.springframework.org/schema/context/spring-context.xsd 을 추가해주면 된다.
+  ![context](https://user-images.githubusercontent.com/104816594/201615986-23b2b15b-ed4e-4250-b4b0-5ecf47dde2c8.PNG)
 #### 3. 디렉토리의 구조를 주의해서 mybatis-config.xml / logback.xml / log4jdbc.log4j2.properties test.xml을 작성 
 #### 4. 데이터 조회/ 처리를 위한 java코드를 작성  
 * MovieVO.java 파일 작성  
