@@ -15,10 +15,7 @@ Tomcat은 Java Servlet과 JSP가 실행할 수 있는 환경을 제공하여 동
 #### 2. 서버를 셋팅하여 실행버튼을 눌러 localhost:8080/프로젝트명/으로 접속하면 Hello World가 정상적으로 실행된다.  
 ## 5. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]  
 mariaDB, MySql WorkBench를 설치하고 movie 테이블을 생성하여 데이터를 넣고 조회해본다.  
-![무비테이블](https://user-images.githubusercontent.com/104816594/201621393-d30e39d1-3a9b-499a-9ade-80890f4d6610.PNG)  
-  
-  
-![테이블 정보](https://user-images.githubusercontent.com/104816594/201621396-f5d71c29-1453-4ec4-80e2-27c9f9796203.PNG)  
+![무비테이블](https://user-images.githubusercontent.com/104816594/201621393-d30e39d1-3a9b-499a-9ade-80890f4d6610.PNG)![테이블 정보](https://user-images.githubusercontent.com/104816594/201621396-f5d71c29-1453-4ec4-80e2-27c9f9796203.PNG)    
 ## 6. [스프링, Mariadb, MyBatis 연동, 데이터 조회]  
 #### 1. pom.xml 수정  
 #### 2. root-context.xml 수정   
