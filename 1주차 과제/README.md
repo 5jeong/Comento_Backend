@@ -20,8 +20,6 @@ mariaDB, MySql WorkBench를 설치하고 movie 테이블을 생성하여 데이�
 #### 1. pom.xml 수정  
 #### 2. root-context.xml 수정   
 * MaridDB에서 내가 설정한 username과 password, 주소를 value값에 넣어주어야 한다.     
-![MovieVO](https://user-images.githubusercontent.com/104816594/201618850-b7623b4b-8bce-46c4-8ef3-992244560aca.PNG)
-
 * context bound 에러 발생  
 해결 : <beans>안에 xmlns:context="http://www.springframework.org/schema/context" 을 추가해주고 xsi:schemaLocation코드에  
   http://www.springframework.org/schema/context  
@@ -31,7 +29,9 @@ mariaDB, MySql WorkBench를 설치하고 movie 테이블을 생성하여 데이�
 #### 4. 데이터 조회/ 처리를 위한 java코드를 작성  
 * MovieVO.java 파일 작성  
   출력화면을 봤을 때, DB에 있는 영화이름, 감독, 장르를 가져오면 된다  
-  따라서 DB에 있는 테이블의 칼럼명과 동일하게 멤버변수를 Private로 선언해주고 또 getter, setter 함수를 작성해주면 된다.  
+  따라서 DB에 있는 테이블의 칼럼명과 동일하게 멤버변수를 Private로 선언해주고 또 getter, setter 함수를 작성해주면 된다. 
+  ![MovieVO](https://user-images.githubusercontent.com/104816594/201618850-b7623b4b-8bce-46c4-8ef3-992244560aca.PNG) 
+  
 #### 5. 테스트를 위한 화면 관련 소스 home.jsp를 작성하고 Tomcat 세팅을 변경
 #### 6. localhost:8080로 접속하여 DB에 있던 영화이름 감독 장르를 보여주는 페이지를 구동
 ![캡처](https://user-images.githubusercontent.com/104816594/201614727-4ea6f1c5-65e6-4a46-9a4a-e8e932a99329.PNG)
