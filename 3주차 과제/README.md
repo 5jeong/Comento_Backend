@@ -1,8 +1,8 @@
 # 코멘토 3주차 과제📑  
 ✅ Spring Boot 환경설정을 진행하여 스프링 프레임워크에 비해 얼마나 간단한지 익히기     
 ✅ RestController를 사용한 간단한 API를 구현해보기  
-## 1️⃣ SpringBoot 개발 환경 셋팅  
 <details>  
+<summary>## 1️⃣ SpringBoot 개발 환경 셋팅</summary>
   
 ### 1) 프로젝트 셋팅  
 * API를 만들기 위함이니 Spring Boot Devtools, Spring Web, MyBatis Framework 만 선택  
@@ -24,8 +24,9 @@
 * localhost:8031/test의 url을 입력한 화면  
 ![테스트화면](https://user-images.githubusercontent.com/104816594/203600795-266fbd16-aec1-4d28-a4db-a9ffeff5a9f1.PNG)  
 </details>  
-## 2️⃣ 통계 API(SW활용현황)을 위한 DB, TABLE 생성  
-<details>  
+<details>    
+<summary>## 2️⃣ 통계 API(SW활용현황)을 위한 DB, TABLE 생성</summary>  
+  
 ### 1) 마리아DB 테이블 생성 쿼리문   
 ![마리아DB 테이블 생성](https://user-images.githubusercontent.com/104816594/203602139-0c1464a2-85c2-4abb-942f-0269b793edaf.PNG)  
 ### 2) requestInfo 테이블 데이터 넣기 
