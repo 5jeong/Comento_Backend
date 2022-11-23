@@ -24,7 +24,8 @@
 ### 5) 웹페이지 출력화면  
 * localhost:8031/test의 url을 입력한 화면  
 ![테스트화면](https://user-images.githubusercontent.com/104816594/203600795-266fbd16-aec1-4d28-a4db-a9ffeff5a9f1.PNG)  
-</details>
+</details>  
+
 ## 2️⃣ 통계 API(SW활용현황)을 위한 DB, TABLE 생성
 <details>    
 <summary></summary>  
@@ -42,7 +43,9 @@
 ### 6) user 테이블 데이터 출력 
 ![사용자 출력](https://user-images.githubusercontent.com/104816594/203602245-479d0341-02d2-4344-8637-5c7a5f46d5fd.PNG) 
 </details>  
+
 ## 3️⃣ [20년도 로그인 수 API] Spring Boot, mybatis, mariadb 연동  
 <details>    
 <summary></summary> 
-
+  
+</details>  
