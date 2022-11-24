@@ -1,5 +1,5 @@
 # 코멘토 3주차 과제📑  
-✅ Spring Boot 환경설정을 진행하여 스프링 프레임워크에 비해 얼마나 간단한지 익히기     
+✅ Spring Boot 환경설정을 진행하여 스프링 프레임워크에 비해 얼마나 간단한지 알아보기     
 ✅ RestController를 사용한 간단한 API를 구현해보기  
 ## 1️⃣ SpringBoot 개발 환경 셋팅
 <details>  
