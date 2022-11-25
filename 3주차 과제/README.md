@@ -47,6 +47,7 @@
 ## 3️⃣ [20년도 로그인 수 API] Spring Boot, mybatis, mariadb 연동  
 <details>    
 <summary></summary>  
+    
 ### 0) 파일 구조(package, mapper, cofing, settingTest 등을 추가로 작성)  
 ### 1) mybatis 설정  
 *  DB와 mybats를 활용하고 MapperScan 어노테이션을 활용하여 스캔할 패키지를 입력  
