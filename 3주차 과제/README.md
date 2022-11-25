@@ -49,14 +49,18 @@
 <summary></summary>  
     
 ### 0) 파일 구조(package, mapper, cofing, settingTest 등을 추가로 작성)  
+![연도별 로그인수 api 파일구조](https://user-images.githubusercontent.com/104816594/203909466-0c745cca-f9b9-4ecd-a2d6-803e951c7b9a.PNG)  
 ### 1) mybatis 설정  
 *  DB와 mybats를 활용하고 MapperScan 어노테이션을 활용하여 스캔할 패키지를 입력  
-### 2) mapper 작성 ( UserMapper.java, userMapper.xml )
-*  StatisticMapper 안에 쿼리를 정의  
+### 2) mapper 작성 ( UserMapper.java, userMapper.xml )  
+*  StatisticMapper 인터페이스를 작성하고 StatisticMapper.xml 안에 쿼리를 정의  
 *  대표 restController로 [해당년도의 로그인 수]를 알기 위한 쿼리를 작성합니다.
 ### 3) Service 작성(비즈니스 로직)  
+*  interface로 yearloginNum을 정의  
+*  JSON을 만들기 위해 HashMap 형태로 Return하고, HashMap에 값을 year, is_success, 쿼리로 가져온 cnt 값으로 json 값을 만듭니다.  
 ### 4) 웹페이지 출력화면  
+*  조회 하는 URL 임으로 GET으로 조회를 하여 url에 parameter를 입력합니다.
 *  http://localhost:8021/sqlyearStatistic?year=20의 url을 입력한 화면  
-  
+![20년도 로그인수 출력](https://user-images.githubusercontent.com/104816594/203909261-32bf5936-3359-4003-9e97-d1cd6122e876.PNG)  
 
 </details>  
