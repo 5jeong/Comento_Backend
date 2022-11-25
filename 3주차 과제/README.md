@@ -46,6 +46,17 @@
 
 ## 3️⃣ [20년도 로그인 수 API] Spring Boot, mybatis, mariadb 연동  
 <details>    
-<summary></summary> 
+<summary></summary>  
+  ### 0) 파일 구조(package, mapper, cofing, settingTest 등을 추가로 작성)
+  ### 1) mybatis 설정  
+  *  DB와 mybats를 활용하고 MapperScan 어노테이션을 활용하여 스캔할 패키지를 입력  
+  ### 2) mapper 작성 ( UserMapper.java, userMapper.xml )
+  *  StatisticMapper 안에 쿼리를 정의  
+  *  대표 restController로 [해당년도의 로그인 수]를 알기 위한 쿼리를 작성합니다.
+  ### 3) Service 작성(비즈니스 로직)  
+  ### 4) 웹페이지 출력화면  
+  *  http://localhost:8021/sqlyearStatistic?year=20의 url을 입력한 화면  
+  
+ 
   
 </details>  
