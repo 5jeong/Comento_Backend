@@ -62,5 +62,5 @@
 *  조회 하는 URL 임으로 GET으로 조회를 하여 url에 parameter를 입력합니다.
 *  http://localhost:8021/sqlyearStatistic?year=20의 url을 입력한 화면  
 ![20년도 로그인수 출력](https://user-images.githubusercontent.com/104816594/203909261-32bf5936-3359-4003-9e97-d1cd6122e876.PNG)  
-
+  
 </details>  
