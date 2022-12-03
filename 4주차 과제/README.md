@@ -136,7 +136,8 @@ department|String | O | 부서
 Name | Type | Mandatory | explain 
 :----: |:-----: | :--------:| :---:   
 totCnt |String | O | 부서별 로그인 수
-yearMonth |String | O | 조회할 년/월
+yearMonth |String | O | 조회할 년/월  
+department |String | O | 부서  
 is_success |String | O | 성공 여부
 ### 5) ResponseBody  
 ![부서별 월별 로그인수](https://user-images.githubusercontent.com/104816594/205297262-0036b3bc-90bd-4a85-b5e1-ca4d4d69faa1.PNG)  
