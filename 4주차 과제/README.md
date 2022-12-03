@@ -135,7 +135,7 @@ department|String | O | 부서
 ### 4) Response Parameters
 Name | Type | Mandatory | explain 
 :----: |:-----: | :--------:| :---:   
-averageCnt |String | O | 부서별 로그인 수
+totCnt |String | O | 부서별 로그인 수
 yearMonth |String | O | 조회할 년/월
 is_success |String | O | 성공 여부
 ### 5) ResponseBody  
